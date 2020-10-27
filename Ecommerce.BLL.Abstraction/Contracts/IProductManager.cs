@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ecommerce.BLL.Abstraction
+namespace Ecommerce.BLL.Abstraction.Contracts
 {
     public interface IProductManager:IManager<Product>
     {
