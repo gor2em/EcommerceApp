@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ecommerce.Repository.Abstraction.Contracts
 {
-    public interface IPurhcesOrderRepository : IRepository<PurchesOrder>
+    public interface IPurchesOrderRepository : IRepository<PurchesOrder>
     {
 
     }

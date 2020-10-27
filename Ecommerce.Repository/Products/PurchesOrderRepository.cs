@@ -10,7 +10,7 @@ using System.Text;
 
 namespace Ecommerce.Repository.Products
 {
-    public class PurchesOrderRepository : Repository<PurchesOrder>, IPurhcesOrderRepository
+    public class PurchesOrderRepository : Repository<PurchesOrder>, IPurchesOrderRepository
     {
         private EcommerceDatabaseContext _db;
         public PurchesOrderRepository(DbContext db) : base(db)
